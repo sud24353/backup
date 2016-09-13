@@ -1,0 +1,14 @@
+ {
+            field: 'name',
+            title: 'names',
+            sortable: true,
+            editable: {
+                type: 'select',
+                source: [
+                    {value: 1, text: 'Active'},
+                    {value: 2, text: 'Blocked'},
+                    {value: 3, text: 'Deleted'}
+                ],
+                //'title': 'Herd Tag',
+                'prepend': {none: "--------------"}
+            }
